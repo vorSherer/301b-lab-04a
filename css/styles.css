@@ -1,0 +1,304 @@
+* {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* @media screen and (max-width: 480px) {
+    body {
+        height: 100%;
+        width: 100%;
+        margin:0;
+        padding:0;
+        background-color: antiquewhite;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .main {
+        height: 250px;
+        width: 100%;
+    }
+
+    .nav {
+        height: 150px;
+        width: 100%;
+    }
+
+    .subheads {
+        height: 500px;
+        width: 100%;
+    }
+
+    .subheads p {
+        float: left;
+        width: 100%;
+    }
+
+    #one {
+        background-color: plum;
+        height: 75px;
+        line-height: 75px;;
+        width: 100%;
+    }
+
+    #two {
+        background-color: hotpink;
+        height: 150px;
+        line-height: 150px;;
+        width: 100%;
+    }
+
+    #three {
+        background-color: pink;
+        height: 125px;
+        line-height: 125px;;
+        width: 100%;
+    }
+
+    #four {
+        background-color: salmon;
+        height: 125px;
+        line-height: 125px;;
+        width: 100%;
+    }
+
+    #five {
+        background-color: lightpink;
+        height: 250px;
+        line-height: 250px;;
+        width: 50%;
+    }
+
+    #six {
+        background-color: lightsalmon;
+        height: 250px;
+        line-height: 250px;;
+        width: 50%;
+    }
+
+    #seven {
+        background-color: darksalmon;
+        height: 250px;
+        line-height: 250px;;
+        width: 50%;
+    }
+
+    #eight {
+        background-color: darkorange;
+        height: 250px;
+        line-height: 250px;;
+        width: 50%;
+    }
+
+    #nine {
+        background-color: coral;
+        height: 80px;
+        line-height: 80px;;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        height: 100%;
+        max-width: 480px;
+        margin: 0;
+        padding: 0;
+        background-color: antiquewhite;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .main {
+        height: 250px;
+        width: 100%;
+    }
+
+    .nav {
+        height: 150px;
+        width: 100%;
+    }
+
+    .subheads {
+        height: 500px;
+        width: 100%;
+    }
+
+    .subheads p {
+        float: left;
+        width: 100%;
+    }
+
+    #one {
+        background-color: plum;
+        height: 75px;
+        line-height: 75px;;
+        width: 100%;
+    }
+
+    #two {
+        background-color: hotpink;
+        height: 150px;
+        line-height: 150px;;
+        width: 100%;
+    }
+
+    #three {
+        background-color: pink;
+        height: 125px;
+        line-height: 125px;;
+        width: 100%;
+    }
+
+    #four {
+        background-color: salmon;
+        height: 125px;
+        line-height: 125px;;
+        width: 100%;
+    }
+
+    #five {
+        background-color: lightpink;
+        height: 250px;
+        line-height: 250px;;
+        width: 50%;
+    }
+
+    #six {
+        background-color: lightsalmon;
+        height: 250px;
+        line-height: 250px;;
+        width: 50%;
+    }
+
+    #seven {
+        background-color: darksalmon;
+        height: 250px;
+        line-height: 250px;;
+        width: 50%;
+    }
+
+    #eight {
+        background-color: darkorange;
+        height: 250px;
+        line-height: 250px;;
+        width: 50%;
+    }
+
+    #nine {
+        background-color: coral;
+        height: 80px;
+        line-height: 80px;;
+        width: 100%;
+    }
+} */
+
+/* DESKTOP-theme */
+
+@media screen and (min-width: 768px) {
+    body {
+        width: 960px;
+    }
+
+    footer {
+        float: right;
+        height: 150px;
+        width: 760px;
+    }
+
+    header {
+        height: 100px;
+        width: 960px;
+    }
+
+    .main {
+        float: right;
+        height: 250px;
+        width: 760px;
+    }
+
+    .nav {
+        float: left;
+        height: 150px;
+        width: 760px;
+    }
+
+    .subheads {
+        float: right;
+        height: 250px;
+        width: 760px;
+    }
+
+    .subheads p {
+        float: left;
+    }
+
+    #one {
+        background-color: skyblue;
+        height: 100px;
+        line-height: 100px;;
+        width: 100%;
+    }
+    
+    #two {
+        background-color: aqua;
+        height: 600px;
+        line-height: 600px;;
+        width: 100%;
+    }
+    
+    #three {
+        background-color: lightcyan;
+        float: left;
+        height: 200px;
+        line-height: 200px;;
+        width: 50%;
+    }
+    
+    #four {
+        background-color: lightskyblue;
+        float: right;
+        height: 200px;
+        line-height: 200px;;
+        width: 50%;
+    }
+    
+    #five {
+        background-color: aquamarine;
+        height: 250px;
+        line-height: 250px;;
+        width: 25%;
+    }
+    
+    #six {
+        background-color: mediumturquoise;
+        height: 250px;
+        line-height: 250px;;
+        width: 25%;
+    }
+    
+    #seven {
+        background-color: powderblue;
+        height: 250px;
+        line-height: 250px;;
+        width: 25%;
+    }
+    
+    #eight {
+        background-color: turquoise;
+        height: 250px;
+        line-height: 250px;;
+        width: 25%;
+    }
+    
+    #nine {
+        background-color: cornflowerblue;
+        height: 150px;
+        line-height: 150px;;
+        width: 100%;
+    }
+}
